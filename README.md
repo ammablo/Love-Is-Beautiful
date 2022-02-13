@@ -1,5 +1,23 @@
-# Love-Is-Beautiful
-My first Blog
-This project requires you to utilize your HTML and CSS skills to build out a personal 
-blog website, including custom images, layout, and styling. Along with webpage design considerations,
-you'll work to appropriately structure your files, as well as use proper CSS and HTML formatting & style.
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="mYstyles.css">
+    <title>My HTML Notes</title>
+
+    <div class = "container">
+      <div class="header box" id="Hed">My First Blog</div>
+      <div class="sidebar box" id="Sid">SIDEBAR</div>
+      <div class="content box">
+        <div class="cox2">
+          <div class="cox1 red" id="">red1</div>
+          <div class="cox1 green" id="">green2</div>
+          <div class="cox1 red" id="">green3</div>
+          <div class="cox1 green" id="">green4</div>
+          <div class="cox1 black" id="">black</div>
+          <div class="cox1 yellow" id="">yellow6</div>
+        </div>
+        </div>
+      <div class="footer box" id="Fot">Footer</div>
+    </div>
+  </head>
+  <body>
