@@ -1,0 +1,161 @@
+* {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box; 
+}
+.container{
+  /* Step 1: Set display to grid */
+    display:grid;
+ /* Step 2: setup rows amd columns */
+  
+    /* grid-template-columns */
+    grid-template-columns: 120px 300px 300px;
+    grid-template-rows: 15% 90% 2%;
+    grid-template-areas: 
+    "hd hd hd hd hd hd hd hd"
+    "sd sd main main main main main main"
+    "ft ft ft ft ft ft ft ft";
+    /*border: 2px solid rgb(159, 151, 236);*/
+}
+.box{
+  /*border: 1px solid rgb(70, 18, 18);*/
+  background: #f4f4f4;
+  }
+/* Assign grid area below */
+.header{ grid-area: hd;
+  
+}
+.footer{grid-area:ft ;
+}
+.sidebar{grid-area: sd;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 25px #aaaaaa;
+}
+.content{grid-area: main;
+}
+.cox1{
+    
+    
+    /*display: flex;*/
+    margin: 10px;
+    padding: 5px;
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    border:1px solid rgb(219, 217, 217);
+    background-color: white;
+    
+    
+      
+    
+}
+.readbtn{
+  background-color: #ed7d31;
+  border-radius: 5px;
+  box-shadow: 10px 10px 25px #aaaaaa;
+  width: 120px;
+  padding: 10px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+
+}
+
+.readbtn > a {
+  color: white;
+  text-decoration: none;
+}
+.PostImge{
+  width: 300px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.cox2{ 
+       display: flex;
+       flex-wrap: wrap;
+       margin: auto;
+       justify-content: center;
+       
+       /*grid-template-columns: 30vw 30vw;
+       grid-template-rows: 45vh 45vh;
+       justify-content: center;
+       grid-template-areas: 
+       "top top top"
+       "bottom bottom bottom";*/
+      
+      }
+
+#one{
+  grid-area: top;
+}
+#two{
+  grid-area: bottom;
+}
+
+/*.red{
+    background-color: rgb(255, 255, 255);
+    border: 0.3rem outset lightblue;
+  }
+  
+  .green{
+    background-color: rgb(255, 255, 255);
+    border: 0.3rem outset lightblue;
+  }
+  
+  .yellow{
+    background-color: rgb(255, 255, 255);
+    border: 0.3rem outset lightblue;
+  }
+  .black{
+
+    background-color: rgb(255, 255, 255);
+    border: 0.3rem outset rgb(128, 164, 177);
+  }*/
+#Hed{
+  font-size: 4rem;
+  font-weight: bold;
+  font-family:inherit;
+  text-align: center;
+  color:#ffffff;
+  height: 10vw;
+  background-color: #0a4b78;
+  padding: 50px 0;
+
+
+  }
+
+#Sid{
+  font-size: 24px;
+  font-weight: bold;
+  font-family: inherit;
+  text-align: left;
+ 
+
+}  
+
+#Fot{
+  font-family: inherit;
+  text-align: center;
+  background-color: #141517;
+  color: #c3c4c7;
+
+} 
+li{
+  display:flex;
+  padding: 15px;
+  margin: 5px;
+  font-family: inherit;
+  border-bottom: 1px solid #aaaaaa83;
+}
+
+h1{
+  text-align: left;
+  font-family: inherit;
+  color: #0a4b78;
+  padding-left: 20px;
+}
+p{
+  display:flex;
+  padding: 20px;
+  margin: 5px;
+  font-size: 20px;
+}
