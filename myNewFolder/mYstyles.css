@@ -151,6 +151,13 @@ li > a {
   
   text-decoration: none;
 }
+h2{text-align: left;
+  font-family: inherit;
+  color: #749bb8;
+  padding-left: 20px;
+  font-size: 45px;
+
+}
 
 h1{
   text-align: left;
